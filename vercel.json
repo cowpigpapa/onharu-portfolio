@@ -1,0 +1,24 @@
+{
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.onharu.app" }],
+      "destination": "https://onharu.app/:path*",
+      "permanent": true
+    },
+    { "source": "/ko/:path*", "destination": "https://diary.onharu.app/ko/:path*", "permanent": true },
+    { "source": "/en/:path*", "destination": "https://diary.onharu.app/en/:path*", "permanent": true },
+    { "source": "/ads/:path*", "destination": "https://diary.onharu.app/ads/:path*", "permanent": true },
+    { "source": "/downloads/:path*", "destination": "https://diary.onharu.app/downloads/:path*", "permanent": true },
+    { "source": "/ONHARU-GUIDE.html", "destination": "https://diary.onharu.app/ONHARU-GUIDE.html", "permanent": true },
+    { "source": "/ONHARU-FAQ.html", "destination": "https://diary.onharu.app/ONHARU-FAQ.html", "permanent": true },
+    { "source": "/ONHARU-DOWNLOAD.html", "destination": "https://diary.onharu.app/ONHARU-DOWNLOAD.html", "permanent": true },
+    { "source": "/ONHARU-RELEASES.html", "destination": "https://diary.onharu.app/ONHARU-RELEASES.html", "permanent": true },
+    { "source": "/ONHARU-SUPPORT.html", "destination": "https://diary.onharu.app/ONHARU-SUPPORT.html", "permanent": true },
+    { "source": "/ONHARU-TERMS.html", "destination": "https://diary.onharu.app/ONHARU-TERMS.html", "permanent": true },
+    { "source": "/ONHARU-PRIVACY.html", "destination": "https://diary.onharu.app/ONHARU-PRIVACY.html", "permanent": true },
+    { "source": "/visit.gif", "destination": "https://diary.onharu.app/visit.gif", "permanent": true },
+    { "source": "/download-hit.gif", "destination": "https://diary.onharu.app/download-hit.gif", "permanent": true }
+  ]
+}
