@@ -136,6 +136,16 @@
       "source": "/download-hit.gif",
       "destination": "https://diary.onharu.app/download-hit.gif",
       "permanent": true
+    },
+    {
+      "source": "/process",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/process.html",
+      "destination": "/",
+      "permanent": true
     }
   ]
 }
